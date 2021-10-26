@@ -3,6 +3,7 @@ const TOOLS = [
 ];
 
 interface ITool {
+  HOME: string;
   PATH: string;
   version(): Promise<string>;
 }
@@ -23,4 +24,12 @@ export async function version(): Promise<Record<string, string>> {
     version[name] = await mod.version();
   }
   return version;
+}
+
+export async function env(): Promise<Record<string, string>> {
+  const gcc = await import('@tool/gcc-arm-none-eabi-9');
+  return {
+    ZEPHYR_TOOLCHAIN_VARIANT: 'gnuarmemb',
+    GNUARMEMB_TOOLCHAIN_PATH: gcc.HOME,
+  };
 }
