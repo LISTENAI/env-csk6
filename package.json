@@ -1,0 +1,25 @@
+{
+  "name": "@tool/csk6-env",
+  "version": "1.0.0",
+  "description": "csk6-env",
+  "main": "lib",
+  "publishConfig": {
+    "registry": "https://registry-lpm.listenai.com"
+  },
+  "scripts": {
+    "build": "tsc -p .",
+    "prepublishOnly": "rm -rf lib && npm run build"
+  },
+  "author": "xychen <xychen@listenai.com>",
+  "maintainers": [
+    "xychen <xychen@listenai.com"
+  ],
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@tool/gcc-arm-none-eabi-9": "^1.1.1-2020-q2-update"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.1",
+    "typescript": "^4.4.4"
+  }
+}
