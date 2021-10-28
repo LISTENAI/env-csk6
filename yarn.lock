@@ -2,17 +2,23 @@
 # yarn lockfile v1
 
 
+"@binary/gcc-arm-none-eabi-9@^2.0.1-2020-q2-update":
+  version "2.0.1-2020-q2-update"
+  resolved "https://registry-lpm.listenai.com/@binary/gcc-arm-none-eabi-9/download/@binary/gcc-arm-none-eabi-9-2.0.1-2020-q2-update.tgz#a656e2a896b1b733ffb873b589275ccc5af345fc"
+  integrity sha1-plbiqJaxtzP/uHO1iSdczFrzRfw=
+  dependencies:
+    "@binary/type" "^1.0.1"
+    download "^8.0.0"
+
+"@binary/type@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry-lpm.listenai.com/@binary/type/download/@binary/type-1.0.1.tgz#e406b88ed1d83be1236516a10c3ad3992168a242"
+  integrity sha1-5Aa4jtHYO+EjZRahDDrTmSFookI=
+
 "@sindresorhus/is@^0.7.0":
   version "0.7.0"
   resolved "https://registry.npmjs.org/@sindresorhus/is/-/is-0.7.0.tgz#9a06f4f137ee84d7df0460c1fdb1135ffa6c50fd"
   integrity sha512-ONhaKPIufzzrlNbqtWFFd+jlnemX6lJAgq9ZeiZtS7I1PIf/la7CW4m83rTXRnVnsMbW2k56pGYu7AUFJD9Pow==
-
-"@tool/gcc-arm-none-eabi-9@^1.2.0-2020-q2-update":
-  version "1.2.0-2020-q2-update"
-  resolved "https://registry-lpm.listenai.com/@tool/gcc-arm-none-eabi-9/download/@tool/gcc-arm-none-eabi-9-1.2.0-2020-q2-update.tgz#57491ec9f1ca39eb3dd13c2c9d5a81477244337f"
-  integrity sha1-V0keyfHKOes90TwsnVqBR3JEM38=
-  dependencies:
-    download "^8.0.0"
 
 "@types/node@^16.11.1":
   version "16.11.6"
