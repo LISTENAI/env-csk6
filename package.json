@@ -1,6 +1,6 @@
 {
   "name": "@tool/csk6-env",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "csk6-env",
   "main": "lib",
   "publishConfig": {
@@ -16,6 +16,7 @@
   ],
   "license": "UNLICENSED",
   "dependencies": {
+    "@binary/bundle": "^1.0.0",
     "@binary/gcc-arm-none-eabi-9": "^2.0.1-2020-q2-update"
   },
   "devDependencies": {

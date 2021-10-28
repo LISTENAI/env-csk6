@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@binary/bundle@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry-lpm.listenai.com/@binary/bundle/download/@binary/bundle-1.0.0.tgz#7760bb93de8ed3c975343569997c1979aeb0833d"
+  integrity sha1-d2C7k96O08l1NDVpmXwZea6wgz0=
+
 "@binary/gcc-arm-none-eabi-9@^2.0.1-2020-q2-update":
   version "2.0.1-2020-q2-update"
   resolved "https://registry-lpm.listenai.com/@binary/gcc-arm-none-eabi-9/download/@binary/gcc-arm-none-eabi-9-2.0.1-2020-q2-update.tgz#a656e2a896b1b733ffb873b589275ccc5af345fc"

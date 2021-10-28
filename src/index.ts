@@ -1,12 +1,8 @@
+import { Bundle } from '@binary/bundle';
 import gcc from '@binary/gcc-arm-none-eabi-9';
 
-interface Bundle {
-  bundle: string[];
-  env: Record<string, string>;
-};
-
 export default <Bundle>{
-  bundle: [
+  binaries: [
     'gcc-arm-none-eabi-9',
   ],
   env: {
