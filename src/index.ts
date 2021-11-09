@@ -1,4 +1,4 @@
-import { Bundle } from '@binary/bundle';
+import { Bundle } from '@lisa-env/type';
 import gcc from '@binary/gcc-arm-none-eabi-9';
 
 export default <Bundle>{

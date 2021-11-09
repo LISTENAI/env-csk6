@@ -1,4 +1,8 @@
-csk6-env
+@lisa-env/csk6
 ==========
 
-Bundle of sandboxed toolchain for CSK6.
+## 安装
+
+```
+lisa install @lisa-env/csk6
+```

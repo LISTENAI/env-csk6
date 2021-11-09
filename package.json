@@ -1,7 +1,7 @@
 {
-  "name": "@tool/csk6-env",
-  "version": "2.1.0",
-  "description": "csk6-env",
+  "name": "@lisa-env/csk6",
+  "version": "2.2.0",
+  "description": "csk6",
   "main": "lib",
   "publishConfig": {
     "registry": "https://registry-lpm.listenai.com"
@@ -16,8 +16,8 @@
   ],
   "license": "UNLICENSED",
   "dependencies": {
-    "@binary/bundle": "^1.0.0",
-    "@binary/gcc-arm-none-eabi-9": "^2.1.1-2020-q2-update"
+    "@binary/gcc-arm-none-eabi-9": "^2.1.1-2020-q2-update",
+    "@lisa-env/type": "^1.1.0"
   },
   "devDependencies": {
     "@types/node": "^16.11.1",

@@ -2,11 +2,6 @@
 # yarn lockfile v1
 
 
-"@binary/bundle@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry-lpm.listenai.com/@binary/bundle/download/@binary/bundle-1.0.0.tgz#7760bb93de8ed3c975343569997c1979aeb0833d"
-  integrity sha1-d2C7k96O08l1NDVpmXwZea6wgz0=
-
 "@binary/gcc-arm-none-eabi-9@^2.1.1-2020-q2-update":
   version "2.1.1-2020-q2-update"
   resolved "https://registry-lpm.listenai.com/@binary/gcc-arm-none-eabi-9/download/@binary/gcc-arm-none-eabi-9-2.1.1-2020-q2-update.tgz#c0015355e056321cbd9cdf3298fffc5644de785f"
@@ -19,6 +14,11 @@
   version "1.0.4"
   resolved "https://registry-lpm.listenai.com/@binary/type/download/@binary/type-1.0.4.tgz#90f1ee052574b4dcc074e1a3a55a8b11de1bd13e"
   integrity sha1-kPHuBSV0tNzAdOGjpVqLEd4b0T4=
+
+"@lisa-env/type@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry-lpm.listenai.com/@lisa-env/type/download/@lisa-env/type-1.1.0.tgz#105487f445e876e8c7066ce02ebaf6c956adf0b3"
+  integrity sha1-EFSH9EXodujHBmzgLrr2yVat8LM=
 
 "@sindresorhus/is@^4.0.0":
   version "4.2.0"
