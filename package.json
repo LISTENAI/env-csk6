@@ -17,7 +17,7 @@
   "license": "UNLICENSED",
   "dependencies": {
     "@binary/bundle": "^1.0.0",
-    "@binary/gcc-arm-none-eabi-9": "^2.0.1-2020-q2-update"
+    "@binary/gcc-arm-none-eabi-9": "^2.1.1-2020-q2-update"
   },
   "devDependencies": {
     "@types/node": "^16.11.1",
