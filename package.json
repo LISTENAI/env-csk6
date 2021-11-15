@@ -1,6 +1,6 @@
 {
   "name": "@lisa-env/csk6",
-  "version": "2.3.1",
+  "version": "2.3.2",
   "description": "csk6",
   "main": "lib",
   "publishConfig": {
@@ -17,7 +17,7 @@
   "license": "UNLICENSED",
   "dependencies": {
     "@binary/gcc-arm-none-eabi-9": "^2.1.3-2020-q2-update",
-    "@binary/jlink": "^1.0.2-7.58",
+    "@binary/jlink": "^1.0.3-7.58",
     "@lisa-env/type": "^1.1.0"
   },
   "devDependencies": {
