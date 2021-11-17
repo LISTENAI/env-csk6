@@ -23,10 +23,10 @@
   resolved "https://registry-lpm.listenai.com/@binary/type/download/@binary/type-1.0.4.tgz#90f1ee052574b4dcc074e1a3a55a8b11de1bd13e"
   integrity sha1-kPHuBSV0tNzAdOGjpVqLEd4b0T4=
 
-"@lisa-env/type@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry-lpm.listenai.com/@lisa-env/type/download/@lisa-env/type-1.1.0.tgz#105487f445e876e8c7066ce02ebaf6c956adf0b3"
-  integrity sha1-EFSH9EXodujHBmzgLrr2yVat8LM=
+"@lisa-env/type@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry-lpm.listenai.com/@lisa-env/type/download/@lisa-env/type-1.2.0.tgz#945aeb49d9b167e1675ee2aea1dcdfecb5be27aa"
+  integrity sha1-lFrrSdmxZ+FnXuKuodzf7LW+J6o=
 
 "@sindresorhus/is@^4.0.0":
   version "4.2.0"
