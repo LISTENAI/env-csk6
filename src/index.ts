@@ -15,13 +15,13 @@ function makeFlashExecArgs(partitions: Record<number, string>, otherArgs: string
   for (const [key, file] of Object.entries(partitions)) {
     const addr = parseInt(key);
     if (!isNaN(addr)) {
-      execArgs.push(`-open${resolve(file)},0x${(VENUS_FLASH_BASE + addr).toString(16)}`)
+      execArgs.push(`-open${resolve(file)},0x${(VENUS_FLASH_BASE + addr).toString(16)}`, '-auto');
     }
   }
 
   return {
     command: 'JFlash',
-    args: [...execArgs, ...otherArgs, '-auto', '-exit'],
+    args: [...execArgs, ...otherArgs, '-exit'],
   };
 }
 
