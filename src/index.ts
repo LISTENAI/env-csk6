@@ -1,5 +1,6 @@
 import { Bundle, FlasherArgs } from '@lisa-env/type';
 import gcc from '@binary/gcc-arm-none-eabi-9';
+import jlink from '@binary/jlink';
 import { join, resolve } from 'path';
 
 const JLINK_DIR = join(__dirname, '..', 'jlink');
@@ -20,7 +21,7 @@ function makeFlashExecArgs(partitions: Record<number, string>, otherArgs: string
   }
 
   return {
-    command: 'JFlash',
+    command: join(jlink.binaryDir, 'JFlash'),
     args: [...execArgs, ...otherArgs, '-exit'],
   };
 }
