@@ -10,13 +10,14 @@
     "@binary/type" "^1.0.4"
     "@xingrz/download2" "^9.0.0-alpha.4"
 
-"@binary/jlink@^1.0.3-7.58":
-  version "1.0.3-7.58"
-  resolved "https://registry-lpm.listenai.com/@binary/jlink/download/@binary/jlink-1.0.3-7.58.tgz#1f95ed05a8308b145aa6d1f3da254097732c59fc"
-  integrity sha1-H5XtBagwixRaptHz2iVAl3MsWfw=
+"@binary/jlink-venus@^1.0.0-7.58":
+  version "1.0.0-7.58"
+  resolved "https://registry-lpm.listenai.com/@binary/jlink-venus/download/@binary/jlink-venus-1.0.0-7.58.tgz#95ea563d54c1339732fe5612a899984ada4dfea7"
+  integrity sha1-lepWPVTBM5cy/lYSqJmYStpN/qc=
   dependencies:
     "@binary/type" "^1.0.4"
     "@xingrz/download2" "^9.0.0-alpha.4"
+    fs-extra "^10.0.0"
 
 "@binary/type@^1.0.4":
   version "1.0.4"
