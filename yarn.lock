@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@binary/cskburn@^1.0.0-1.13.0":
-  version "1.0.0-1.13.0"
-  resolved "https://registry-lpm.listenai.com/@binary/cskburn/download/@binary/cskburn-1.0.0-1.13.0.tgz#f8b4613c85dd6145c254bcdcf2cfbf9872d16a1a"
-  integrity sha1-+LRhPIXdYUXCVLzc8s+/mHLRaho=
+"@binary/cskburn@^1.0.1-1.14.0":
+  version "1.0.1-1.14.0"
+  resolved "https://registry-lpm.listenai.com/@binary/cskburn/download/@binary/cskburn-1.0.1-1.14.0.tgz#068ca8a0d1471700820bfca129408bb69438ee96"
+  integrity sha1-BoyooNFHFwCCC/yhKUCLtpQ47pY=
   dependencies:
     "@binary/type" "^1.0.4"
     "@xingrz/download2" "^9.0.0-alpha.4"
