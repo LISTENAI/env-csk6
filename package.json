@@ -16,7 +16,7 @@
   ],
   "license": "UNLICENSED",
   "dependencies": {
-    "@binary/cskburn": "^1.0.2-1.14.4",
+    "@binary/cskburn": "^1.0.3-1.15.0",
     "@binary/gcc-arm-none-eabi-9": "^2.1.3-2020-q2-update",
     "@binary/jlink-venus": "^1.0.0-7.58",
     "@lisa-env/type": "^1.2.0"
