@@ -1,6 +1,6 @@
 {
   "name": "@lisa-env/csk6",
-  "version": "2.5.4",
+  "version": "2.5.5",
   "description": "csk6",
   "main": "lib",
   "publishConfig": {
@@ -12,13 +12,15 @@
   },
   "author": "xychen <xychen@listenai.com>",
   "maintainers": [
-    "xychen <xychen@listenai.com"
+    "xychen <xychen@listenai.com",
+    "lpmadmin <lpm.admin@listenai.com>",
+    "zbzhao <zbzhao@listenai.com>"
   ],
   "license": "UNLICENSED",
   "dependencies": {
     "@binary/cskburn": "^1.0.4-1.16.0",
     "@binary/gcc-arm-none-eabi-9": "^2.1.3-2020-q2-update",
-    "@binary/jlink-venus": "^1.0.0-7.58",
+    "@binary/jlink-venus": "^1.0.1-7.58",
     "@lisa-env/type": "^1.2.0"
   },
   "devDependencies": {
