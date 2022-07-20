@@ -3,6 +3,7 @@ import gcc from '@binary/gcc-arm-none-eabi-9';
 
 export default <Bundle>{
   binaries: [
+    'ccache',
     'cskburn',
     'gcc-arm-none-eabi-9',
     'jlink-venus',
