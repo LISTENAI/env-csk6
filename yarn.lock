@@ -18,10 +18,10 @@
     "@binary/type" "^1.0.4"
     "@xingrz/download2" "^9.0.0-alpha.4"
 
-"@binary/jlink-venus@^1.0.0-7.58":
-  version "1.0.0-7.58"
-  resolved "https://registry-lpm.listenai.com/@binary/jlink-venus/download/@binary/jlink-venus-1.0.0-7.58.tgz#95ea563d54c1339732fe5612a899984ada4dfea7"
-  integrity sha1-lepWPVTBM5cy/lYSqJmYStpN/qc=
+"@binary/jlink-venus@^1.0.1-7.58":
+  version "1.0.1-7.58"
+  resolved "https://registry-lpm.listenai.com/@binary/jlink-venus/download/@binary/jlink-venus-1.0.1-7.58.tgz#1a5a7090d678598c3a16b8ba88dcec7bf25d453b"
+  integrity sha1-GlpwkNZ4WYw6Fri6iNzse/JdRTs=
   dependencies:
     "@binary/type" "^1.0.4"
     "@xingrz/download2" "^9.0.0-alpha.4"
