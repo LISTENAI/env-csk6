@@ -2,6 +2,14 @@
 # yarn lockfile v1
 
 
+"@binary/ccache@^1.0.0-4.6.1-master":
+  version "1.0.0-4.6.1-master"
+  resolved "https://registry-lpm.listenai.com/@binary/ccache/download/@binary/ccache-1.0.0-4.6.1-master.tgz#b35e5af4ce40dbd4337507c4200745c36c67d982"
+  integrity sha1-s15a9M5A29QzdQfEIAdFw2xn2YI=
+  dependencies:
+    "@binary/type" "^1.0.4"
+    "@xingrz/download2" "^9.0.0-alpha.4"
+
 "@binary/cskburn@^1.0.4-1.16.0":
   version "1.0.4-1.16.0"
   resolved "https://registry-lpm.listenai.com/@binary/cskburn/download/@binary/cskburn-1.0.4-1.16.0.tgz#06e47015887fbe93f6e696213ceccf9c7dd56494"
