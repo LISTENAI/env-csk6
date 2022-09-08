@@ -1,14 +1,17 @@
 import { Bundle } from '@lisa-env/type';
-import gcc from '@binary/gcc-arm-none-eabi-9';
+import gcc from '@binary/gcc-arm-none-eabi-10.3';
+import zephyrSDK from '@binary/zephyr-sdk-0.14.2';
 
 export default <Bundle>{
   binaries: [
     'cskburn',
-    'gcc-arm-none-eabi-9',
+    'zephyr-sdk-0.14.2',
+    'gcc-arm-none-eabi-10.3',
     'jlink-venus',
   ],
   env: {
-    ZEPHYR_TOOLCHAIN_VARIANT: 'gnuarmemb',
+    ZEPHYR_TOOLCHAIN_VARIANT: 'zephyr',
+    ZEPHYR_SDK_INSTALL_DIR: zephyrSDK.homeDir,
     GNUARMEMB_TOOLCHAIN_PATH: gcc.homeDir,
   },
 };
