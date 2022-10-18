@@ -26,4 +26,4 @@ jobs:
         id: get_version
 
       - name: Publish (latest)
-        run: npm dist-tag add @lisa-plugin/zephyr@${{ steps.get_version.outputs.version-without-v }} latest --registry=https://registry-lpm.listenai.com
+        run: npm dist-tag add @lisa-env/csk6@${{ steps.get_version.outputs.version-without-v }} latest --registry=https://registry-lpm.listenai.com
