@@ -41,10 +41,18 @@
   resolved "https://registry-lpm.listenai.com/@binary/type/download/@binary/type-1.0.4.tgz#90f1ee052574b4dcc074e1a3a55a8b11de1bd13e"
   integrity sha1-kPHuBSV0tNzAdOGjpVqLEd4b0T4=
 
-"@binary/zephyr-sdk-multi@^2023.8.2":
-  version "2023.8.2"
-  resolved "https://registry-lpm.listenai.com/@binary/zephyr-sdk-multi/download/@binary/zephyr-sdk-multi-2023.8.2.tgz#6f1676c3744dc585a7d3ac12ea830ca45041ef8d"
-  integrity sha1-bxZ2w3RNxYWn06wS6oMMpFBB740=
+"@binary/zephyr-sdk-0.14.2@^1.0.0-2022.5":
+  version "1.0.0-2022.5"
+  resolved "https://registry-lpm.listenai.com/@binary/zephyr-sdk-0.14.2/download/@binary/zephyr-sdk-0.14.2-1.0.0-2022.5.tgz#5435b176b473541e680002b2b2a848b82e416436"
+  integrity sha1-VDWxdrRzVB5oAAKysqhIuC5BZDY=
+  dependencies:
+    "@binary/type" "^1.0.4"
+    "@xingrz/download2" "^9.0.0-alpha.4"
+
+"@binary/zephyr-sdk-0.16.1@^1.0.0-2023.5":
+  version "1.0.0-2023.5"
+  resolved "https://registry-lpm.listenai.com/@binary/zephyr-sdk-0.16.1/download/@binary/zephyr-sdk-0.16.1-1.0.0-2023.5.tgz#82a3b929a1d317f8e2793a3e16c3a2b8019b1a6f"
+  integrity sha1-gqO5KaHTF/jieTo+FsOiuAGbGm8=
   dependencies:
     "@binary/type" "^1.0.4"
     "@xingrz/download2" "^9.0.0-alpha.4"
